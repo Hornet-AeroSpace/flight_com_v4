@@ -1,0 +1,27 @@
+﻿Requirements
+* Smaller 2 pin buttons
+* S3-Wroom-1
+* Mosfets and terminals for e-matches
+   * 3 matches (3 positive, 1 ground terminal)
+   * Continuity test per ematch with high ohm external pull ups for voltage divider.
+* Terminal for uart for GCS
+* Sensors
+   * Use SPI unless they don’t support it
+   * BMP 390 - barometer
+   * LSM6DSOX + LIS3MDL - High Precision 9 DOF IMU
+   * PA1616D - GPS
+   * ADXL375 - High G 6 DOF IMU
+* 1 gbit flash chip / High capacity SD card
+
+
+Resources
+https://dl.espressif.com/dl/schematics/SCH_ESP32-S3-DevKitC-1_V1.1_20220413.pdf
+Esp32-s3-wroom-1 dev board (we’re only using the module, not the dev board, but it’s still a good reference)
+https://www.adafruit.com/product/4517
+LSM
+https://www.adafruit.com/product/4816
+BMP 390
+https://www.adafruit.com/product/5440
+GPS
+https://www.adafruit.com/product/5374
+ADXL
