@@ -19,7 +19,7 @@ https://en.wikipedia.org/wiki/Serial_Peripheral_Interface
 Starting place for research on SPI, make sure to familiarize yourself with SPI, I2C, and UART
 https://dl.espressif.com/dl/schematics/SCH_ESP32-S3-DevKitC-1_V1.1_20220413.pdf
 Esp32-s3-wroom-1 dev board (we’re only using the module, not the dev board, but it’s still a good reference)
-https://www.adafruit.com/product/4517
+https://www.adafruit.com/product/4438
 LSM
 https://www.adafruit.com/product/4816
 BMP 390
